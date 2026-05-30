@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6b5n5vjcN9k_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">BPI 3.2 Interactive</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="BPI_3.2_Interactive_ORG">
+    <organization identifier="BPI_3.2_Interactive_ORG">
+      <title>BPI 3.2 Interactive</title>
+      <item identifier="BPI_3.2_Interactive_SCO" isvisible="true" identifierref="__6b5n5vjcN9k_course_id_RES">
+        <title>BPI 3.2 Interactive</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6b5n5vjcN9k_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/6XZbFVX4KFL_80_DX124_DY124_CX97_CY97.png" />
+      <file href="mobile/6LtY273wcNL_80_DX152_DY152_CX119_CY119.png" />
+      <file href="mobile/6G1f5dVNO9h_80_DX154_DY154_CX121_CY121.png" />
+      <file href="mobile/6JuXhjRL9RL_80_DX182_DY182_CX143_CY143.png" />
+      <file href="mobile/5wGpVIoVoGC_80_DX168_DY168_CX132_CY132.png" />
+      <file href="mobile/699K9nL9otQ_80_DX182_DY182_CX143_CY143.png" />
+      <file href="mobile/6ddXkqfj75f_80_DX162_DY162_CX127_CY127.png" />
+      <file href="mobile/6bQytjGqSbY_80_DX194_DY194_CX152_CY152.png" />
+      <file href="mobile/68KMkPX6maS_80_DX140_DY140_CX110_CY110.png" />
+      <file href="mobile/5jZgRGXlKdu_80_DX142_DY142_CX111_CY111.png" />
+      <file href="story_content/6be3xsqAJcD.html" />
+      <file href="mobile/6be3xsqAJcD61EYDdNfI8M{Width=715, Height=408.5}Light_80_DX1430_DY1430_CX715_CY408.jpg" />
+      <file href="mobile/6dc2KDmwYrZ_80_DX118_DY118_CX92_CY92.png" />
+      <file href="story_content/5lv6GxoFbT8.html" />
+      <file href="mobile/5lv6GxoFbT85am5IYlLddy{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="story_content/6YaLVEH222t.html" />
+      <file href="mobile/6YaLVEH222t6nfQvOwoVut{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="story_content/6XDgtyJ9OD1.html" />
+      <file href="mobile/6XDgtyJ9OD16nVYUCdMwEx{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="story_content/6Fp1veUiIKP.html" />
+      <file href="mobile/6Fp1veUiIKP6216aWStqeA{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="story_content/63t9sZ3ZAUF.html" />
+      <file href="mobile/63t9sZ3ZAUF6l9JhZxHDJD{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="story_content/5gxLzr8jE0p.html" />
+      <file href="mobile/5gxLzr8jE0p5upkQlNSZUy{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="story_content/6Ymbmo3xEvZ.html" />
+      <file href="mobile/6Ymbmo3xEvZ5tSEpwI7vga{Width=715, Height=402.1875}Light_80_DX1430_DY1430_CX715_CY402.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/6ShfgD143sY.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
+      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
+      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
+      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/indexAPI.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
