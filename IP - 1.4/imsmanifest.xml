@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6Ikfg7yWCdZ_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">BPI 1.4</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="BPI_1.4_ORG">
+    <organization identifier="BPI_1.4_ORG">
+      <title>BPI 1.4</title>
+      <item identifier="Untitled2_SCO" isvisible="true" identifierref="__6Ikfg7yWCdZ_course_id_RES">
+        <title>BPI 1.4</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6Ikfg7yWCdZ_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/6odCOtjjZPo_80_DX144_DY144_CX113_CY113.png" />
+      <file href="mobile/65yp0m2yOpf_80_DX156_DY156_CX122_CY122.png" />
+      <file href="mobile/6Ed5iPZKEFi_80_DX170_DY170_CX133_CY133.png" />
+      <file href="mobile/60hJCa5T2Ir_80_DX132_DY132_CX103_CY103.png" />
+      <file href="mobile/5frXAmPnPqt_80_DX136_DY136_CX107_CY107.png" />
+      <file href="mobile/68Bx9PjzT8P_80_DX150_DY150_CX118_CY118.png" />
+      <file href="mobile/6mbaCgr5GG9_80_DX160_DY160_CX125_CY125.png" />
+      <file href="story_content/6OGSW9VGhai.html" />
+      <file href="mobile/6OGSW9VGhai6MvkEkgTEQ3{Width=720, Height=405}Light_80_DX1440_DY1440_CX720_CY405.jpg" />
+      <file href="mobile/5oXBN53QjiF_80_DX122_DY122_CX96_CY96.png" />
+      <file href="story_content/6Beh3DyBIvl.html" />
+      <file href="mobile/6Beh3DyBIvl5t1uDJhUVRk{Width=720, Height=405}Light_80_DX1440_DY1440_CX720_CY405.jpg" />
+      <file href="story_content/6cP7mpSSs00.html" />
+      <file href="mobile/6cP7mpSSs006JV4tkj3uiV{Width=720, Height=405}Light_80_DX1440_DY1440_CX720_CY405.jpg" />
+      <file href="story_content/60KZGqPIBJn.html" />
+      <file href="mobile/60KZGqPIBJn5c1vyWjqRAP{Width=720, Height=405}Light_80_DX1440_DY1440_CX720_CY405.jpg" />
+      <file href="story_content/5hdoa04gCyV.html" />
+      <file href="mobile/5hdoa04gCyV6ljNNEg9rbG{Width=721.5842, Height=405.8911}Light_80_DX1444_DY1444_CX722_CY406.jpg" />
+      <file href="story_content/68UATkswg07.html" />
+      <file href="mobile/68UATkswg0762OPgfq1Kow{Width=720, Height=405}Light_80_DX1440_DY1440_CX720_CY405.jpg" />
+      <file href="story_content/5clbycv7d2C.html" />
+      <file href="mobile/5clbycv7d2C64quNiG28SK{Width=720, Height=405}Light_80_DX1440_DY1440_CX720_CY405.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5VP8nBsxhJL.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
+      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
+      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
+      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/indexAPI.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
