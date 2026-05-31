@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>History of Education for Development</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #1C2B22;
+  padding: 2rem 1.5rem;
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2A6049;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #2A6049;
+}
+.tl-line {
+  position: relative;
+  padding-left: 28px;
+}
+.tl-line::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: #2A6049;
+}
+.tl-item {
+  position: relative;
+  margin-bottom: 10px;
+}
+.tl-dot {
+  position: absolute;
+  left: -22px;
+  top: 12px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f8f9fa;
+  border: 2px solid #2A6049;
+  transition: background 0.2s;
+  z-index: 1;
+}
+.tl-item.active .tl-dot {
+  background: #2A6049;
+}
+.tl-btn {
+  width: 100%;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #d0ddd8;
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-family: inherit;
+}
+.tl-btn:hover {
+  border-color: #2A6049;
+  background: #f0f5f2;
+}
+.tl-item.active .tl-btn {
+  border-color: #2A6049;
+  background: #f0f5f2;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-color: transparent;
+}
+.tl-year {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2A6049;
+  letter-spacing: 0.5px;
+  margin-bottom: 3px;
+}
+.tl-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1C2B22;
+  line-height: 1.3;
+}
+.tl-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+.tl-item.active .tl-body {
+  max-height: 600px;
+}
+.tl-inner {
+  padding: 14px 16px 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #3a4a42;
+  background: #f0f5f2;
+  border: 1px solid #2A6049;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
+</style>
+</head>
+<body>
+<h1>History of Education for Development</h1>
+<div class="tl-line" id="timeline"></div>
+<script>
+const events = [
+  {
+    year: '1922',
+    label: 'International Committee on Intellectual Cooperation',
+    text: 'Part of the League of Nations, this committee brought together scientists, intellectuals and educators who were devoted to communication and cooperation across nations — a precursor to UNESCO.'
+  },
+  {
+    year: '1945',
+    label: 'Founding of UNESCO',
+    text: 'Building on the International Committee on Intellectual Cooperation, the United Nations Educational, Scientific, and Cultural Organization (UNESCO) became the major global organization devoted to education and development.'
+  },
+  {
+    year: '1948',
+    label: 'Universal Declaration of Human Rights',
+    text: 'This landmark document established the norm for contemporary human rights, including the right to receive a free public education. Article 26 contains three clauses with major implications for international education and development: "Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit."'
+  },
+  {
+    year: '1990',
+    label: 'World Declaration on Education for All',
+    text: 'Inequality was widespread by the 1980s due to larger inequalities in world affairs and decades of conflict and poverty. By the late \'80s, more than 100 million children had no access to primary schooling. The World Declaration on Education for All set out to change this, committing nations to ensuring basic education for every person.'
+  },
+  {
+    year: '2000',
+    label: 'Dakar Framework for Action',
+    text: 'Adopted at the World Education Forum in Dakar, the Dakar Framework for Action mobilized UNESCO to achieve the goals of the Education for All movement. It builds on and reinforces the commitments made in 1990, establishing six goals for improving access to and quality of education worldwide.'
+  },
+  {
+    year: '2012',
+    label: 'Global Education First Initiative (GEFI)',
+    text: 'Launched by UN Secretary General Ban Ki-moon, the Global Education First Initiative mobilized the educational community to achieve the goals of the Education for All movement and helped build political momentum toward Education 2030, emphasising quality, equity, and learning outcomes.'
+  },
+  {
+    year: '2015',
+    label: 'Incheon Framework: "Education 2030"',
+    text: 'Adopted at the World Education Forum in Incheon, the "Education 2030" declaration aligned the Education for All movement with Sustainable Development Goal 4: ensuring inclusive and equitable quality education and promoting lifelong learning opportunities for all by 2030.'
+  }
+];
+
+const container = document.getElementById('timeline');
+let activeIdx = null;
+
+events.forEach((e, i) => {
+  const item = document.createElement('div');
+  item.className = 'tl-item';
+  item.innerHTML = `
+    <div class="tl-dot"></div>
+    <button class="tl-btn" aria-expanded="false">
+      <span class="tl-year">${e.year}</span>
+      <span class="tl-label">${e.label}</span>
+    </button>
+    <div class="tl-body"><div class="tl-inner">${e.text}</div></div>
+  `;
+  const btn = item.querySelector('button');
+  btn.addEventListener('click', () => {
+    if (activeIdx === i) {
+      item.classList.remove('active');
+      btn.setAttribute('aria-expanded', 'false');
+      activeIdx = null;
+    } else {
+      if (activeIdx !== null) {
+        const prev = container.children[activeIdx];
+        prev.classList.remove('active');
+        prev.querySelector('button').setAttribute('aria-expanded', 'false');
+      }
+      item.classList.add('active');
+      btn.setAttribute('aria-expanded', 'true');
+      activeIdx = i;
+    }
+  });
+  container.appendChild(item);
+});
+</script>
+</body>
+</html>
