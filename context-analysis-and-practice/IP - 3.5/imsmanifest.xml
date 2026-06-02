@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_5aI0KTyIu3H_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">CAP - 3.5 LESSON - Category of Context: Society</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="CAP_-_3.5_LESSON_-_Category_of_Context:_Society_ORG">
+    <organization identifier="CAP_-_3.5_LESSON_-_Category_of_Context:_Society_ORG">
+      <title>CAP - 3.5 LESSON - Category of Context: Society</title>
+      <item identifier="CAP_-_3.3_LESSON_-_Category_of_Context_Environment_SCO" isvisible="true" identifierref="__5aI0KTyIu3H_course_id_RES">
+        <title>CAP - 3.5 LESSON - Category of Context: Society</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__5aI0KTyIu3H_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/6ppSJt4mljR_80_DX1616_DY1616_CX899_CY1271.png" />
+      <file href="mobile/6cLqQ3YbMdt_80_DX210_DY210_CX165_CY165.png" />
+      <file href="mobile/5ipijoETN7F_80_DX188_DY188_CX147_CY147.png" />
+      <file href="mobile/6N1uZnR37PJ_80_DX172_DY172_CX135_CY135.png" />
+      <file href="mobile/5VJPrgVELqV_80_DX210_DY210_CX165_CY165.png" />
+      <file href="mobile/6dVdqtWPXtW_80_DX184_DY184_CX144_CY144.png" />
+      <file href="mobile/6GIRg3tsUmA_80_DX202_DY202_CX158_CY158.png" />
+      <file href="mobile/5hdLbA1lhoH_80_DX108_DY108_CX84_CY84.png" />
+      <file href="mobile/5tjiKKrn7QC_80_DX1616_DY1616_CX899_CY1271.png" />
+      <file href="mobile/6TXYeYicKfe_80_DX210_DY210_CX165_CY165.png" />
+      <file href="mobile/5ivRUZWldAg_80_DX168_DY168_CX132_CY132.png" />
+      <file href="story_content/5nA3RBOz6Ry.html" />
+      <file href="mobile/5nA3RBOz6Ry5rIzKWKYcUk{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/5nlPrkvoe1K.html" />
+      <file href="mobile/5nlPrkvoe1K5m9u5Aq9jip{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/69ySHPNX4qP.html" />
+      <file href="mobile/69ySHPNX4qP64TRJODEsQr{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/6JlCGd4xXWl.html" />
+      <file href="mobile/6JlCGd4xXWl5fcKxRY0QPb{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/6YlxfdEftFy.html" />
+      <file href="mobile/6YlxfdEftFy6o7NXWlz8h2{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5WWEioBWjku.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
+      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
+      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
+      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/indexAPI.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>

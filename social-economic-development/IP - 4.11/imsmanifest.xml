@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_5mAkmQTOR8j_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Interactive SED 4.11</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Interactive_SED_4.11_ORG">
+    <organization identifier="Interactive_SED_4.11_ORG">
+      <title>Interactive SED 4.11</title>
+      <item identifier="Untitled2_SCO" isvisible="true" identifierref="__5mAkmQTOR8j_course_id_RES">
+        <title>Interactive SED 4.11</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__5mAkmQTOR8j_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="mobile/txt__default_6PVXHtm5NGL.png" />
+      <file href="mobile/txt__default_6Db5eF5KcvQ.png" />
+      <file href="mobile/txt__default_6a83O1luBRd.png" />
+      <file href="mobile/txt__default_68MSK1xndt8.png" />
+      <file href="mobile/txt__default_5ovZFC8ik3V.png" />
+      <file href="mobile/txt__default_6T2DntZG3dt.png" />
+      <file href="mobile/txt__default_5prFFTANfLn.png" />
+      <file href="mobile/txt__default_6dSVKrlUZmA.png" />
+      <file href="mobile/txt__default_6XShldmpMJV.png" />
+      <file href="mobile/txt__default_6QFxNVPoWT4.png" />
+      <file href="mobile/txt__default_67u7UxmvcPJ.png" />
+      <file href="mobile/txt__default_5WJuttNXgfa.png" />
+      <file href="mobile/txt__default_6r9VznTSKDh.png" />
+      <file href="mobile/txt__default_6XpHCPoDc1G.png" />
+      <file href="mobile/txt__default_6Udbs2tUmde.png" />
+      <file href="mobile/txt__default_60gTcwQPHZW.png" />
+      <file href="mobile/txt__default_5io35sYjqI0.png" />
+      <file href="mobile/txt__default_5zvPyCkwIw4.png" />
+      <file href="mobile/txt__default_6apicebrtty.png" />
+      <file href="mobile/txt__default_6XhtGlwZX7s.png" />
+      <file href="mobile/txt__default_60lqjDZBYj2.png" />
+      <file href="mobile/txt__default_5WuMfVZ3kZ4.png" />
+      <file href="mobile/txt__default_5e19L0gqlgr.png" />
+      <file href="mobile/txt__default_60JQ455wocz.png" />
+      <file href="mobile/txt__default_6LSOS8c465r.png" />
+      <file href="mobile/txt__default_6K3ZODfMz8A.png" />
+      <file href="mobile/txt__default_6qHQuSuKzEL.png" />
+      <file href="mobile/txt__default_6I1B7V1o1Ki.png" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/6ZxouNkp6JM.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
+      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
+      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
+      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/indexAPI.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_5kW8HMHEhYj_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">CAP - 3.9 LESSON - Category of Context: Business </langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="CAP_-_3.9_LESSON_-_Category_of_Context:_Business__ORG">
+    <organization identifier="CAP_-_3.9_LESSON_-_Category_of_Context:_Business__ORG">
+      <title>CAP - 3.9 LESSON - Category of Context: Business </title>
+      <item identifier="CAP_-_3.3_LESSON_-_Category_of_Context_Environment_SCO" isvisible="true" identifierref="__5kW8HMHEhYj_course_id_RES">
+        <title>CAP - 3.9 LESSON - Category of Context: Business </title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__5kW8HMHEhYj_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/5tjiKKrn7QC_80_DX1616_DY1616_CX899_CY1271.png" />
+      <file href="mobile/5bGCuwAKo1H_80_DX210_DY210_CX165_CY165.png" />
+      <file href="mobile/6h9BKeqiB08_80_DX196_DY196_CX154_CY154.png" />
+      <file href="mobile/6AlrrYIAKvA_80_DX162_DY162_CX127_CY127.png" />
+      <file href="mobile/6Let4U6OBvw_80_DX156_DY156_CX122_CY122.png" />
+      <file href="mobile/5fLuuJNxPgF_80_DX210_DY210_CX165_CY165.png" />
+      <file href="mobile/5Zwf5QQi5GO_80_DX162_DY162_CX127_CY127.png" />
+      <file href="mobile/5jR45LHciSW_80_DX196_DY196_CX154_CY154.png" />
+      <file href="mobile/5hdLbA1lhoH_80_DX108_DY108_CX84_CY84.png" />
+      <file href="mobile/6TXYeYicKfe_80_DX210_DY210_CX165_CY165.png" />
+      <file href="mobile/5ivRUZWldAg_80_DX168_DY168_CX132_CY132.png" />
+      <file href="story_content/6qXg715Mc4g.html" />
+      <file href="mobile/6qXg715Mc4g6KrQX9SYWxF{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/5lzm6KzwPzB.html" />
+      <file href="mobile/5lzm6KzwPzB6gdjzWMIVX6{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/6mcpAF3btz3.html" />
+      <file href="mobile/6mcpAF3btz35wIJ0UkOt7X{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/6lq8M9VwZ8U.html" />
+      <file href="mobile/6lq8M9VwZ8U6SBgHUD6PJl{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/6c5OFMNKb5w.html" />
+      <file href="mobile/6c5OFMNKb5w5k9NNiUcQd9{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="story_content/6Q5BLm0GCFa.html" />
+      <file href="mobile/6Q5BLm0GCFa5tunyGKmnoR{Width=560, Height=315}Light_80_DX1120_DY1120_CX560_CY315.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5WWEioBWjku.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
+      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
+      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
+      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/indexAPI.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
